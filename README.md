@@ -1,30 +1,17 @@
+A biblioteca do saber é um site onde há 2 tipos de usuarios, funcionario e aluno, alem do administrador do site. Funcionarios e alunos têm uma tabela no banco, cada um, alem da tabela de usuario, ou sejá, temos uma relação de herança entre usuario, funcionario e aluno.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Os funcionarios e alunos tem um controle diferente dos visitantes, porque alem de navegar pelo site, ver noticias e entrar em contato, eles podem fazer consulta de livros cadastrados.
 
+O Administrador pode adicionar livro, adicionar aluno, adicionar professor, adicionar noticia, ver quem entro em contato pelo SAC e listar os livros cadastrados.
 
-Hi there! Welcome to Cloud9 IDE!
+O visitante pode ver as noticias, navegar pelo site e pode fazer login caso for usuario.
 
-To get you started, we have created a small hello world application.
+Para testes:
 
-1) Open the hello-world.php file
+Administrador: andressamiki@gmail.com senha: andressamiki
 
-2) Follow the run instructions in the file's comments
+Usuario1: mariomiki@gmail.com senha: mario
 
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
+Usuario2:alessamiki@gmail.com senha: 123
 
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+obs: Lembrando que se logar com admin pode adicionar um novo usuario.
